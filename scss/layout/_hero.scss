@@ -32,12 +32,12 @@
     }
 
     &:hover .btn {
-      display: block; /* Hover holatida tugmalarni ko'rsatish */
+      display: block; 
     }
   }
 
   .btn {
-    display: none; /* Asosiy holatda tugmalarni yashirish */
+    display: none; 
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
@@ -139,7 +139,6 @@
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.251);
     color: rgb(0, 0, 0);
-    // padding: 10px;
     border-radius: 5px;
     text-align: center;
     font-size: 1.2rem;
@@ -172,8 +171,6 @@
   background-color: red;
 }
 
-///////
-///
 .slider {
   display: flex;
   overflow: hidden;
@@ -193,7 +190,6 @@
 }
 
 .card-top_img img {
-  // user-drag: none;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
