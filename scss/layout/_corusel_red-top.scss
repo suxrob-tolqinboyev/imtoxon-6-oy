@@ -1,0 +1,69 @@
+.carousel-containers-red {
+  max-width: 1440px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide-red {
+  display: flex;
+  width: calc(100% * 12 / 10);
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item-red {
+  width: calc(100% / 10);
+  flex: 0 0 auto;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.carousel-item-red img {
+  border-radius: 10px;
+  width: 140px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.carousel-item-red img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.carousel-item-red:hover .item-caption-red {
+  color: #da002b;
+}
+
+.item-caption-red {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  padding: 8px 0;
+  transition: color 0.2s ease-in-out;
+}
+
+.carousel-containers-red button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 18px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.169);
+  transition: transform 0.2s ease-in-out;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.carousel-containers-red button:focus {
+  outline: none;
+}
+
+.carousel-containers-red .leftArrow-red {
+  left: 10px;
+}
+
+.carousel-containers-red .rightArrow-red {
+  right: 10px;
+}

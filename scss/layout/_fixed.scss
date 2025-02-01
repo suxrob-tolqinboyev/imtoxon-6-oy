@@ -1,0 +1,104 @@
+#chat-icon {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#chat-icon img {
+  width: 100%;
+  height: auto;
+}
+
+#chat-window {
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 10px;
+}
+
+#chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#chat-messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #cccccc2f;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#message-form {
+  display: flex;
+}
+
+#message-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#message-form button {
+  padding: 5px 10px;
+}
+
+#chat-header img {
+  width: 40px;
+  margin-top: -38px;
+}
+.olcha-chat {
+  font-size: 12px;
+  margin-top: 10px;
+  letter-spacing: -0.5px;
+}
+
+.olcha-chat-wrapper {
+  width: 300px;
+  //   border: 1px solid red;
+  margin-left: 10px;
+}
+
+.olcha-chat-btn {
+  margin-top: 40px;
+  transform: translateY(150px);
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: #d32f2f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.olcha-chat-btn:hover {
+  background-color: #b71c1c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+// .olcha-chat-btn:active {
+//   background-color: #9a0007;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+//   transform: translateY(2px);
+// }
+.olcha-chat-close {
+  transform: translateY(-235px) translateX(120px);
+  width: 0px;
+  height: 0px;
+  color: rgba(0, 0, 0, 0.441);
+}

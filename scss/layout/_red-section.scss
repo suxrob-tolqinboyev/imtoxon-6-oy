@@ -1,0 +1,25 @@
+.red-section_wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: red;
+  border-radius: 15px;
+  height: 101px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.red-section_wrapper .image-container img {
+  width: 100%;
+  border-radius: 13px;
+  transition: transform 0.3s ease-in-out;
+  object-fit: cover;
+}
+
+.red-section_wrapper .image-container:hover img {
+  transform: scale(1.05);
+  cursor: pointer;
+}

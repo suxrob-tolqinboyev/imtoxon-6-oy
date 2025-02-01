@@ -1,0 +1,157 @@
+.header-buttom {
+  padding-top: 28px;
+  .wrapper {
+    display: flex;
+    align-items: center;
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      width: 330px;
+
+      .item {
+        cursor: pointer;
+        .icon {
+          width: 24px;
+          height: 24px;
+          display: block;
+          margin: auto;
+          transition: 0.3s ease-in-out;
+
+          path {
+            transition: stroke 0.3s ease-in-out;
+          }
+        }
+
+        &:nth-child(1) {
+          svg {
+            transition: stroke 0.3s ease-in-out;
+          }
+        }
+
+        &:nth-child(2) {
+          path {
+            stroke: black;
+            transition: stroke 0.3s ease-in-out;
+          }
+        }
+
+        &:nth-child(3) {
+          path {
+            transition: stroke 0.3s ease-in-out;
+          }
+        }
+
+        &:nth-child(4) {
+          path {
+            fill: black;
+            transition: stroke 0.3s ease-in-out;
+          }
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: 500;
+          margin-top: 5px;
+          transition: 0.3s ease-in-out;
+        }
+
+        &:hover {
+          p {
+            color: #da002b;
+          }
+        }
+
+        &:nth-child(1):hover {
+          svg {
+            fill: red;
+          }
+        }
+
+        &:nth-child(2):hover {
+          path {
+            stroke: red;
+          }
+        }
+
+        &:nth-child(3):hover {
+          path {
+            stroke: red;
+          }
+        }
+
+        &:nth-child(4):hover {
+          path {
+            fill: red;
+          }
+        }
+      }
+    }
+
+    .logo {
+      width: 102px;
+      height: 30px;
+      margin-right: 40px;
+      cursor: pointer;
+    }
+
+    .katalog {
+      border: 2px solid black;
+      display: flex;
+      align-items: center;
+      border-radius: 12px;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 12px 28px;
+      gap: 20px;
+      line-height: 1.33;
+      font-family: "raleway";
+      transition: 0.3s ease-in-out;
+      &:hover {
+        border: 2px solid #da002b;
+        color: #da002b;
+      }
+    }
+
+    .form {
+      position: relative;
+      background: #f2f2f2;
+      border: 1px solid #f2f2f2;
+      border-radius: 12px;
+      padding: 1px;
+      width: 740px;
+      display: flex;
+      align-items: center;
+      margin: 0px 40px 0 24px;
+
+      input {
+        background: #f2f2f2;
+        padding: 12px 24px 15px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        width: 89.8%;
+      }
+
+      .btn-search {
+        cursor: pointer;
+        height: 55px;
+        width: 100px;
+        margin-left: 650px;
+        padding: 10px 24px 10px 24px;
+        background-color: #da002b;
+        border: 1px solid #f2f2f2;
+        border-radius: 12px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        &:hover {
+          border: 1px solid #da002b;
+        }
+      }
+    }
+  }
+}

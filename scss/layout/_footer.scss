@@ -1,0 +1,129 @@
+.footer {
+  background: #f2f2f2;
+
+  &__wrapper {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0 8px 0;
+  }
+
+  &__info {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-content: space-between;
+    height: 192px;
+  }
+
+  &__icon {
+    width: 170px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+
+  &__icon:hover {
+    background: gray;
+  }
+
+  &__brand {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // vertical-align: top;
+    gap: 15px;
+    height: 112px;
+  }
+
+  &__wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__list2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 513px;
+  }
+  &__item2:hover {
+    color: gray;
+  }
+  &__item1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  &__item1:hover {
+    color: #da002b;
+  }
+
+  &__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 356px;
+    height: 128px;
+    gap: 16px;
+  }
+
+  &__brand2 {
+    width: 80%;
+    height: 56px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+
+  &__wrapper3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__brand2:hover {
+    background: gray;
+  }
+
+  &__title2 {
+    color: #da002b;
+    margin-bottom: 30px;
+  }
+
+  &__logo {
+    margin-bottom: 24px;
+  }
+
+  &__list3 {
+    display: flex;
+    gap: 200px;
+  }
+  &__list4 {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__end {
+    color: gray;
+  }
+
+  &__item3 {
+    color: gray;
+  }
+  &__item3:hover {
+    color: #da002b;
+  }
+}

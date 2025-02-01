@@ -1,0 +1,88 @@
+.carousel-containers {
+  max-width: 1440px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tovar{
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+.carousel-slide {
+  display: flex;
+  width: calc(100% * 12 / 10);
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item {
+  width: calc(100% / 10);
+  flex: 0 0 auto;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 140px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.carousel-item:hover .item-caption {
+  color: #da002b;
+}
+
+.item-caption {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  padding: 8px 0;
+  transition: color 0.2s ease-in-out;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 18px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.169);
+  transition: transform 0.2s ease-in-out;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.leftArrow {
+    left: 10px;
+  }
+
+  &.rightArrow {
+    right: 10px;
+  }
+}
+
+// .slider {
+//   display: flex;
+//   overflow: hidden;
+//   scroll-behavior: smooth;
+// }
+
+// .card-wrapper {
+//   flex: 0 0 100%;
+//   transition: transform 0.5s ease-in-out;
+// }
